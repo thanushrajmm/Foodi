@@ -3,20 +3,21 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import Cards from '../../components/Cards';
+import { FaAngleLeft, FaAngleRight } from 'react-icons/fa6';
 
 const simpleNextArrow = (props) => {
-  const {className, style, onClick} = props;
+  const { className, style, onClick } = props;
   return (
-    <div className={className} 
-    style={{...style, display: "block", background: "red"  }} onClick={onClick}>NEXT</div>
+    <div className={className}
+      style={{ ...style, display: "block", background: "red" }} onClick={onClick}>NEXT</div>
   );
 };
 
 const simplePrevArrow = (props) => {
-  const {className, style, onClick} = props;
+  const { className, style, onClick } = props;
   return (
-    <div className={className} 
-    style={{...style, display: "block", background: "green"  }} onClick={onClick}>BACK</div>
+    <div className={className}
+      style={{ ...style, display: "block", background: "green" }} onClick={onClick}>BACK</div>
   );
 }
 
@@ -25,11 +26,10 @@ const SpecialDishes = () => {
   const slider = React.useRef(null)
 
   useEffect(() => {
-        fetch("/menu.json").then(res => res.json()). then(data => {
-          const specials = data.filter((item) => item.category === "popular" )
-          //console.log(specials)
-          setRecipes(specials)
-        })
+    fetch("/menu.json").then(res => res.json()).then(data => {
+      const specials = data.filter((item) => item.category === "popular")
+      setRecipes(specials)
+    })
   }, [])
 
   const settings = {
@@ -66,26 +66,33 @@ const SpecialDishes = () => {
       }
     ],
 
-    nextArrow: <simpleNextArrow/>,
-    prevArrow: <simplePrevArrow/>
+    nextArrow: <simpleNextArrow />,
+    prevArrow: <simplePrevArrow />
   };
 
   return (
-    <div className='section-container my-20 '>
-        <div className='text-left'>
-            <p className='subtitle'>Special Dishes</p>
-            <h2 className='title md:w-[520px]'>Standout Dishes From Our Menu</h2>
-        </div>
-
+    <div className='section-container my-20 relative '>
+      <div className='text-left flex justify-between items-center'>
         <div>
-        <button onClick={() => slider?.current?.slickPrev()}>Prev</button>
-        <button>Next</button>
+          <p className='subtitle'>Special Dishes</p>
+          <h2 className='title md:w-[520px]'>Standout Dishes From Our Menu</h2>
         </div>
 
-        <Slider ref={slider}{...settings}>
+        {/*arrow btns*/}
+        <div className='flex items-center'>
+          <button onClick={() => slider?.current?.slickPrev()} className='btn p-2 rounded-full bg-green'>
+            <FaAngleLeft className='w-8 h-8 p-1' />
+          </button>
+          <button onClick={() => slider?.current?.slickNext()} className='btn p-2 rounded-full ml-2 bg-green'>
+            <FaAngleRight className='w-8 h-8 p-1' />
+          </button>
+        </div>
+      </div>
+
+      <Slider ref={slider} {...settings} className='overflow-hidden mt-10 space-x-5'>
         {
           recipes.map((item, i) => (
-            <Cards key={i} item={item}/>
+            <Cards key={i} item={item} />
           ))
         }
       </Slider>
