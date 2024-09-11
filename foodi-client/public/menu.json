@@ -5,7 +5,7 @@
         "recipe": "Chargrilled fresh tuna steak (served medium rare) on classic Niçoise salad with French beans.",
         "image": "/images/recipes/img1.png",
         "category": "salad",
-        "price": 14.7
+        "price": 147
     },
     {
         "_id": "642c155b2c4774f05c36eeb9",
@@ -13,7 +13,7 @@
         "recipe": "Chargrilled fresh tuna steak (served medium rare) on classic Niçoise salad with French beans.",
         "image": "/images/recipes/img2.png",
         "category": "drinks",
-        "price": 14.7
+        "price": 147
     },
     {
         "_id": "642c155b2c4774f05c36ee7c",
@@ -21,7 +21,7 @@
         "recipe": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
         "image": "/images/recipes/img1.png",
         "category": "popular",
-        "price": 14.5
+        "price": 145
     },
     {
         "_id": "642c155b2c4774f05c36ee88",
@@ -29,7 +29,7 @@
         "recipe": "Pan roasted haddock fillet wrapped in smoked French bacon with pea purée and tomato and chive vinaigrette",
         "image": "/images/recipes/img1.png",
         "category": "dessert",
-        "price": 12.5
+        "price": 125
     },
     {
         "_id": "642c155b2c4774f05c36ee7a",
@@ -37,7 +37,7 @@
         "recipe": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
         "image": "/images/recipes/img2.png",
         "category": "popular",
-        "price": 14.5
+        "price": 145
     },
     {
         "_id": "642c155b2c4774f05c36ee74",
@@ -45,7 +45,7 @@
         "recipe": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
         "image": "/images/recipes/img3.png",
         "category": "popular",
-        "price": 14.5
+        "price": 145
     },
     {
         "_id": "642c155b2c4774f05c36ee712",
@@ -53,7 +53,7 @@
         "recipe": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
         "image": "/images/recipes/img1.png",
         "category": "popular",
-        "price": 14.5
+        "price": 145
     },
     {
         "_id": "642c155b2c4774f05c36ee7x",
@@ -61,7 +61,7 @@
         "recipe": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
         "image": "/images/recipes/img2.png",
         "category": "popular",
-        "price": 14.5
+        "price": 145
     },
     {
         "_id": "642c155b2c4774f05c36ee8c",
@@ -69,7 +69,7 @@
         "recipe": "Pan roasted haddock fillet wrapped in smoked French bacon with pea purée and tomato and chive vinaigrette",
         "image": "/images/recipes/img3.png",
         "category": "dessert",
-        "price": 12.5
+        "price": 125
     },
     {
         "_id": "642c155b2c4774f05c36ee94",
@@ -77,7 +77,7 @@
         "recipe": "Pan roasted haddock fillet wrapped in smoked French bacon with pea purée and tomato and chive vinaigrette",
         "image": "/images/recipes/img1.png",
         "category": "pizza",
-        "price": 12.5
+        "price": 125
     },
     {
         "_id": "642c155b2c4774f05c36ee9e",
@@ -85,7 +85,7 @@
         "recipe": "Chargrilled chicken with avocado, baby gem lettuce, baby spinach, shallots, French beans, walnuts, croutons and a mustard dressing",
         "image": "/images/recipes/img2.png",
         "category": "pizza",
-        "price": 12.9
+        "price": 129
     },
     {
         "_id": "642c155b2c4774f05c36eea6",
@@ -93,7 +93,7 @@
         "recipe": "Pan roasted pork belly with gratin potato, braised Savoy cabbage, apples, thyme and calvados jus",
         "image": "/images/recipes/img3.png",
         "category": "salad",
-        "price": 13.5
+        "price": 135
     },
     {
         "_id": "642c155b2c4774f05c36eeaf",
@@ -101,7 +101,7 @@
         "recipe": "Pan roasted haddock fillet wrapped in smoked French bacon with pea purée and tomato and chive vinaigrette",
         "image": "/images/recipes/img1.png",
         "category": "soup",
-        "price": 12.5
+        "price": 125
     },
     {
         "_id": "642c155b2c4774f05c36ee89",
@@ -109,7 +109,7 @@
         "recipe": "Pan roasted pork belly with gratin potato, braised Savoy cabbage, apples, thyme and calvados jus",
         "image": "/images/recipes/img2.png",
         "category": "dessert",
-        "price": 13.5
+        "price": 135
     },
     {
         "_id": "642c155b2c4774f05c36ee8a",
@@ -117,7 +117,7 @@
         "recipe": "Pan roasted haddock fillet wrapped in smoked French bacon with pea purée and tomato and chive vinaigrette",
         "image": "/images/recipes/img3.png",
         "category": "dessert",
-        "price": 12.5
+        "price": 125
     },
     {
         "_id": "642c155b2c4774f05c36ee96",
@@ -125,7 +125,7 @@
         "recipe": "Sautéed breaded veal escalope with watercress, lemon and veal jus.",
         "image": "/images/recipes/img1.png",
         "category": "pizza",
-        "price": 9.5
+        "price": 95
     },
     {
         "_id": "642c155b2c4774f05c36ee81",
@@ -133,7 +133,7 @@
         "recipe": "Warm goats cheese and roasted vegetable salad with black olive tapenade crostini",
         "image": "/images/recipes/img2.png",
         "category": "offered",
-        "price": 10.5
+        "price": 105
     },
     {
         "_id": "642c155b2c4774f05c36ee84",
@@ -141,7 +141,7 @@
         "recipe": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
         "image": "/images/recipes/img3.png",
         "category": "dessert",
-        "price": 14.5
+        "price": 145
     },
     {
         "_id": "642c155b2c4774f05c36eea4",
@@ -149,7 +149,7 @@
         "recipe": "Pan roasted pork belly with gratin potato, braised Savoy cabbage, apples, thyme and calvados jus",
         "image": "/images/recipes/img1.png",
         "category": "salad",
-        "price": 13.5
+        "price": 135
     },
     {
         "_id": "642c155b2c4774f05c36eea5",
@@ -165,7 +165,7 @@
         "recipe": "Pan roasted pork belly with gratin potato, braised Savoy cabbage, apples, thyme and calvados jus",
         "image": "/images/recipes/img3.png",
         "category": "dessert",
-        "price": 13.5
+        "price": 135
     },
     {
         "_id": "642c155b2c4774f05c36ee83",
@@ -173,7 +173,7 @@
         "recipe": "Pan roasted pork belly with gratin potato, braised Savoy cabbage, apples, thyme and calvados jus",
         "image": "/images/recipes/img1.png",
         "category": "offered",
-        "price": 13.5
+        "price": 135
     },
     {
         "_id": "642c155b2c4774f05c36ee7f",
@@ -181,7 +181,7 @@
         "recipe": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
         "image": "/images/recipes/img2.png",
         "category": "popular",
-        "price": 14.5
+        "price": 145
     },
     {
         "_id": "642c155b2c4774f05c36eea8",
@@ -189,7 +189,7 @@
         "recipe": "Pan roasted pork belly with gratin potato, braised Savoy cabbage, apples, thyme and calvados jus",
         "image": "/images/recipes/img3.png",
         "category": "salad",
-        "price": 13.5
+        "price": 135
     },
     {
         "_id": "642c155b2c4774f05c36eeba",
@@ -197,7 +197,7 @@
         "recipe": "Chargrilled fresh tuna steak (served medium rare) on classic Niçoise salad with French beans.",
         "image": "/images/recipes/img1.png",
         "category": "drinks",
-        "price": 14.7
+        "price": 147
     },
     {
         "_id": "642c155b2c4774f05c36ee80",
@@ -205,7 +205,7 @@
         "recipe": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
         "image": "/images/recipes/img2.png",
         "category": "offered",
-        "price": 14.5
+        "price": 145
     },
     {
         "_id": "642c155b2c4774f05c36ee90",
@@ -213,7 +213,7 @@
         "recipe": "Sautéed breaded veal escalope with watercress, lemon and veal jus.",
         "image": "/images/recipes/img3.png",
         "category": "dessert",
-        "price": 9.5
+        "price": 95
     },
     {
         "_id": "642c155b2c4774f05c36eeb0",
@@ -221,7 +221,7 @@
         "recipe": "Pan roasted pork belly with gratin potato, braised Savoy cabbage, apples, thyme and calvados jus",
         "image": "/images/recipes/img1.png",
         "category": "soup",
-        "price": 13.5
+        "price": 135
     },
     {
         "_id": "642c155b2c4774f05c36ee8d",
@@ -229,7 +229,7 @@
         "recipe": "Pan roasted pork belly with gratin potato, braised Savoy cabbage, apples, thyme and calvados jus",
         "image": "/images/recipes/img2.png",
         "category": "dessert",
-        "price": 13.5
+        "price": 135
     },
     {
         "_id": "642c155b2c4774f05c36ee8e",
@@ -237,7 +237,7 @@
         "recipe": "Pan roasted haddock fillet wrapped in smoked French bacon with pea purée and tomato and chive vinaigrette",
         "image": "/images/recipes/img3.png",
         "category": "dessert",
-        "price": 12.5
+        "price": 125
     },
     {
         "_id": "642c155b2c4774f05c36eea7",
@@ -245,7 +245,7 @@
         "recipe": "Sautéed breaded veal escalope with watercress, lemon and veal jus.",
         "image": "/images/recipes/img2.png",
         "category": "salad",
-        "price": 9.5
+        "price": 95
     },
     {
         "_id": "642c155b2c4774f05c36ee99",
@@ -253,7 +253,7 @@
         "recipe": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
         "image": "/images/recipes/img1.png",
         "category": "pizza",
-        "price": 14.5
+        "price": 145
     },
     {
         "_id": "642c155b2c4774f05c36eeb3",
@@ -261,7 +261,7 @@
         "recipe": "Sautéed breaded veal escalope with watercress, lemon and veal jus.",
         "image": "/images/recipes/img3.png",
         "category": "soup",
-        "price": 9.5
+        "price": 95
     },
     {
         "_id": "642c155b2c4774f05c36eeb5",
@@ -269,7 +269,7 @@
         "recipe": "Sautéed breaded veal escalope with watercress, lemon and veal jus.",
         "image": "/images/recipes/img1.png",
         "category": "soup",
-        "price": 9.5
+        "price": 95
     },
     {
         "_id": "642c155b2c4774f05c36eeb6",
@@ -277,7 +277,7 @@
         "recipe": "Chargrilled fresh tuna steak (served medium rare) on classic Niçoise salad with French beans.",
         "image": "/images/recipes/img2.png",
         "category": "soup",
-        "price": 14.7
+        "price": 147
     },
     {
         "_id": "642c155b2c4774f05c36eeb8",
@@ -285,7 +285,7 @@
         "recipe": "Chargrilled fresh tuna steak (served medium rare) on classic Niçoise salad with French beans.",
         "image": "/images/recipes/img3.png",
         "category": "soup",
-        "price": 14.7
+        "price": 147
     },
     {
         "_id": "642c155b2c4774f05c36ee7e",
@@ -293,7 +293,7 @@
         "recipe": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
         "image": "/images/recipes/img1.png",
         "category": "popular",
-        "price": 14.5
+        "price": 145
     },
     {
         "_id": "642c155b2c4774f05c36ee8b",
@@ -301,7 +301,7 @@
         "recipe": "Pan roasted pork belly with gratin potato, braised Savoy cabbage, apples, thyme and calvados jus",
         "image": "/images/recipes/img2.png",
         "category": "dessert",
-        "price": 13.5
+        "price": 135
     },
     {
         "_id": "642c155b2c4774f05c36ee8f",
@@ -309,7 +309,7 @@
         "recipe": "Pan roasted pork belly with gratin potato, braised Savoy cabbage, apples, thyme and calvados jus",
         "image": "/images/recipes/img3.png",
         "category": "dessert",
-        "price": 13.5
+        "price": 135
     },
     {
         "_id": "642c155b2c4774f05c36ee91",
@@ -317,7 +317,7 @@
         "recipe": "Chargrilled fresh tuna steak (served medium rare) on classic Niçoise salad with French beans",
         "image": "/images/recipes/img1.png",
         "category": "dessert",
-        "price": 14.7
+        "price": 147
     },
     {
         "_id": "642c155b2c4774f05c36ee97",
@@ -325,7 +325,7 @@
         "recipe": "Chargrilled fresh tuna steak (served medium rare) on classic Niçoise salad with French beans.",
         "image": "/images/recipes/img2.png",
         "category": "pizza",
-        "price": 14.7
+        "price": 147
     },
     {
         "_id": "642c155b2c4774f05c36eea0",
@@ -333,7 +333,7 @@
         "recipe": "Chargrilled chicken with avocado, baby gem lettuce, baby spinach, shallots, French beans, walnuts, croutons and a mustard dressing",
         "image": "/images/recipes/img3.png",
         "category": "pizza",
-        "price": 14.5
+        "price": 145
     },
     {
         "_id": "642c155b2c4774f05c36eea9",
@@ -341,7 +341,7 @@
         "recipe": "Sautéed breaded veal escalope with watercress, lemon and veal jus.",
         "image": "/images/recipes/img1.png",
         "category": "salad",
-        "price": 9.5
+        "price": 95
     },
     {
         "_id": "642c155b2c4774f05c36ee85",
@@ -349,7 +349,7 @@
         "recipe": "Warm goats cheese and roasted vegetable salad with black olive tapenade crostini",
         "image": "/images/recipes/img2.png",
         "category": "dessert",
-        "price": 10.5
+        "price": 105
     },
     {
         "_id": "642c155b2c4774f05c36ee93",
@@ -365,7 +365,7 @@
         "recipe": "Pan roasted pork belly with gratin potato, braised Savoy cabbage, apples, thyme and calvados jus",
         "image": "/images/recipes/img1.png",
         "category": "pizza",
-        "price": 13.5
+        "price": 135
     },
     {
         "_id": "642c155b2c4774f05c36ee9b",
@@ -373,7 +373,7 @@
         "recipe": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
         "image": "/images/recipes/img1.png",
         "category": "pizza",
-        "price": 14.5
+        "price": 145
     },
     {
         "_id": "642c155b2c4774f05c36eeb7",
@@ -381,7 +381,7 @@
         "recipe": "Sautéed breaded veal escalope with watercress, lemon and veal jus.",
         "image": "/images/recipes/img1.png",
         "category": "soup",
-        "price": 9.5
+        "price": 95
     },
     {
         "_id": "642c155b2c4774f05c36ee9c",
@@ -389,7 +389,7 @@
         "recipe": "Chargrilled chicken with avocado, baby gem lettuce, baby spinach, shallots, French beans, walnuts, croutons and a mustard dressing",
         "image": "/images/recipes/img1.png",
         "category": "pizza",
-        "price": 12.9
+        "price": 129
     },
     {
         "_id": "642c155b2c4774f05c36ee9d",
@@ -397,7 +397,7 @@
         "recipe": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
         "image": "/images/recipes/img1.png",
         "category": "pizza",
-        "price": 14.5
+        "price": 145
     },
     {
         "_id": "642c155b2c4774f05c36eeac",
@@ -405,7 +405,7 @@
         "recipe": "Chargrilled chicken with avocado, baby gem lettuce, baby spinach, shallots, French beans, walnuts, croutons and a mustard dressing",
         "image": "/images/recipes/img1.png",
         "category": "salad",
-        "price": 14.5
+        "price": 145
     },
     {
         "_id": "642c155b2c4774f05c36eeb4",
@@ -413,7 +413,7 @@
         "recipe": "Chargrilled fresh tuna steak (served medium rare) on classic Niçoise salad with French beans.",
         "image": "/images/recipes/img1.png",
         "category": "soup",
-        "price": 14.7
+        "price": 147
     },
     {
         "_id": "642c155b2c4774f05c36ee98",
@@ -421,7 +421,7 @@
         "recipe": "Chargrilled chicken with avocado, baby gem lettuce, baby spinach, shallots, French beans, walnuts, croutons and a mustard dressing",
         "image": "/images/recipes/img1.png",
         "category": "pizza",
-        "price": 12.9
+        "price": 129
     },
     {
         "_id": "642c155b2c4774f05c36ee82",
@@ -429,7 +429,7 @@
         "recipe": "Pan roasted haddock fillet wrapped in smoked French bacon with pea purée and tomato and chive vinaigrette",
         "image": "/images/recipes/img1.png",
         "category": "offered",
-        "price": 12.5
+        "price": 125
     },
     {
         "_id": "642c155b2c4774f05c36ee86",
@@ -437,7 +437,7 @@
         "recipe": "Pan roasted haddock fillet wrapped in smoked French bacon with pea purée and tomato and chive vinaigrette",
         "image": "/images/recipes/img1.png",
         "category": "dessert",
-        "price": 12.5
+        "price": 125
     },
     {
         "_id": "642c155b2c4774f05c36ee9a",
@@ -445,7 +445,7 @@
         "recipe": "Chargrilled chicken with avocado, baby gem lettuce, baby spinach, shallots, French beans, walnuts, croutons and a mustard dressing",
         "image": "/images/recipes/img1.png",
         "category": "pizza",
-        "price": 12.9
+        "price": 129
     },
     {
         "_id": "642c155b2c4774f05c36eeab",
@@ -453,7 +453,7 @@
         "recipe": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
         "image": "/images/recipes/img1.png",
         "category": "salad",
-        "price": 14.5
+        "price": 145
     },
     {
         "_id": "642c155b2c4774f05c36eeb1",
@@ -461,7 +461,7 @@
         "recipe": "Sautéed breaded veal escalope with watercress, lemon and veal jus.",
         "image": "/images/recipes/img1.png",
         "category": "soup",
-        "price": 9.5
+        "price": 95
     },
     {
         "_id": "642c155b2c4774f05c36eead",
@@ -469,7 +469,7 @@
         "recipe": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
         "image": "/images/recipes/img1.png",
         "category": "soup",
-        "price": 14.5
+        "price": 145
     },
     {
         "_id": "642c155b2c4774f05c36eeae",
@@ -477,6 +477,6 @@
         "recipe": "Warm goats cheese and roasted vegetable salad with black olive tapenade crostini",
         "image": "/images/recipes/img1.png",
         "category": "soup",
-        "price": 10.5
+        "price": 105
     }
 ]
