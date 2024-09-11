@@ -79,7 +79,7 @@ const SpecialDishes = () => {
         </div>
 
         {/*arrow btns*/}
-        <div className='flex items-center'>
+        <div className='flex items-center p-5'>
           <button onClick={() => slider?.current?.slickPrev()} className='btn p-2 rounded-full bg-green'>
             <FaAngleLeft className='w-8 h-8 p-1' />
           </button>
