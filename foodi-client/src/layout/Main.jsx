@@ -6,9 +6,11 @@ import Footer from '../components/Footer'
 
 const Main = () => {
   return (
-    <div>
+    <div className='bg-primaryBG'>
         <Navbar/>
+        <div className='min-h-screen'>
         <Outlet/>
+        </div>
         <Footer/>
     </div>
   )
