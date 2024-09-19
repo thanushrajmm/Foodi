@@ -1,25 +1,26 @@
 import React, { useEffect, useState } from 'react';
 import logo from '/logo.png';
-import { IoIosCall } from "react-icons/io";
+import { FaRegUser } from "react-icons/fa";
+import Modal from './Modal';
 
 const Navbar = () => {
     const [isSticky, setSticky] = useState(false);
 
     //handle scroll functions
-    useEffect( () => {
+    useEffect(() => {
         const handleScroll = () => {
             const offset = window.scrollY;
-            if(offset > 0){
+            if (offset > 0) {
                 setSticky(true)
-            } else{
+            } else {
                 setSticky(false)
             }
         };
-        
-        window.addEventListener("scroll",handleScroll);
+
+        window.addEventListener("scroll", handleScroll);
 
         return () => {
-            window.addEventListener("scroll",handleScroll);
+            window.addEventListener("scroll", handleScroll);
         }
     }, [])
 
@@ -134,7 +135,10 @@ const Navbar = () => {
                         </div>
                     </div>
                     {/*button*/}
-                    <a className="btn bg-green rounded-full px-6 text-white flex items-center gap-2"><IoIosCall /> Contact </a>
+                    <button className="btn bg-green rounded-full px-6 text-white flex items-center gap-2"
+                        onClick={() => document.getElementById('my_modal_3').showModal()}>
+                        <FaRegUser /> Login </button>
+                        <Modal/>
                 </div>
             </div>
         </header>
