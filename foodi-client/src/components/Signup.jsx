@@ -1,12 +1,34 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React, { useContext } from 'react'
+import { Link, useLocation, useNavigate } from 'react-router-dom'
 import { FaGoogle, FaFacebookF, FaGithub } from "react-icons/fa";
 import { useForm } from "react-hook-form";
 import Modal from './Modal';
+import { AuthContext } from '../contexts/AuthProvider';
 
 const Signup = () => {
     const { register, handleSubmit, formState: { errors } } = useForm()
-    const onSubmit = (data) => console.log(data)
+    const {createUser, login} = useContext(AuthContext);
+        //redirecting to homepage or specific page
+        const location = useLocation();
+        const navigate = useNavigate();
+        const from = location.state?.from?.pathname || "/";
+    const onSubmit = (data) => {
+        const email = data.email;
+        const password = data.password;
+        createUser(email,password).then((result) => {
+          // Signed up 
+          const user = result.user;
+          alert("Account creation successfull!")
+          document.getElementById('my_modal_3').close()
+          navigate(from, {replace: true})
+          // ...
+        })
+        .catch((error) => {
+          const errorCode = error.code;
+          const errorMessage = error.message;
+          // ..
+        });
+    }
 
     return (
         <div className="h-screen flex justify-center items-center">
@@ -27,7 +49,7 @@ const Signup = () => {
                         </label>
                         <input type="password" placeholder="password" className="input input-bordered" required {...register("password")} />
                         <label className="label mt-1">
-                            <a href="#" className="label-text-alt link link-hover">Forgot password?</a>
+                            <a href="#" className="label-text-alt link link-hover"> Forgot password? </a>
                         </label>
                     </div>
 

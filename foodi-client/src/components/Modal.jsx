@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useLocation, useNavigate } from 'react-router-dom'
 import { FaGoogle } from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
@@ -14,7 +14,13 @@ const Modal = () => {
         formState: { errors },
       } = useForm()
     const {signUpWithGmail, login} = useContext(AuthContext);
-    const {errorMessage, setErrorMessage} = useState("");
+    const [errorMessage, setErrorMessage] = useState("");
+
+    //redirecting to homepage or specific page
+    const location = useLocation();
+    const navigate = useNavigate();
+
+    const from = location.state?.from?.pathname || "/";
 
     const onSubmit = (data) =>{
         const email = data.email;
@@ -24,6 +30,8 @@ const Modal = () => {
         login(email, password).then((result) => {
             const user = result.user;
             alert("Login Successfull!");
+            document.getElementById('my_modal_3').close()
+            navigate(from, {replace: true})
         }).catch((error) => {
             const errorMessage = error.message;
             setErrorMessage("Provide a valid email and password")
@@ -35,6 +43,7 @@ const Modal = () => {
         signUpWithGmail().then((result) => {
             const user = result.user;
             alert("Login Successfull!")
+            navigate(from, {replace: true})
         }).catch((error) => console.log(error))
     }
     return (
@@ -63,7 +72,7 @@ const Modal = () => {
 
                     {/* error */}
                     {
-                         errorMessage ? <p className='text-red text-xs italic'>{setErrorMessage}</p> : ""
+                        errorMessage ? <p className='text-red text-xs italic'>{errorMessage}</p> : ""
                     }
 
                     {/* login btn */}
