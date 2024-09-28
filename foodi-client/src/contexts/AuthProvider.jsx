@@ -60,7 +60,8 @@ const AuthProvider = ({ children }) => {
     signUpWithGmail,
     login,
     logout,
-    updateuserProfile
+    updateuserProfile,
+    loading
   };
 
   return (
